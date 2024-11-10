@@ -6,7 +6,7 @@
 + 请仔细阅读[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)跟[别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways/blob/master/README.md)，遇到问题先尝试自己解决（ 当然，遇到无法解决的问题，也非常欢迎你们来提问，但请不要问在网络上可以轻易搜索到结果的问题 ）
 
 ## 安装Linux
-+ 安装 Ubuntu24.04，可以去 bilibili 搜索教程。***建议安装物理双系统，不要使用虚拟机***
++ 安装 Ubuntu24.04或22.04，可以去 bilibili 搜索教程。***建议安装物理双系统，不要使用虚拟机***
 
 ## 科学上网
 + 安装配置科学上网软件，需要能正常访问使用 [Google](https://google.com/)、[ChatGPT](https://chat.openai.com/)、[Github](https://github.com) 等网络服务
@@ -41,6 +41,11 @@ mkdir ~/GKD_WorkSpace
 ## 算法组
 可以根据你的兴趣进行选择学习导航或自瞄
 ### 自瞄
+由于队伍内算法组起步较晚，无法在本赛季快速开发出一套视觉算法库，故选择使用北洋机甲开源的视觉算法框架，但还需要进行移植，以下是一些我们认为非常有用的资料
++ [了解CV和RoboMaster视觉组](https://github.com/NeoZng/vision_tutorial/blob/main/了解CV和RoboMaster视觉组.md)（ 给跃鹿算法组各位大佬磕头了，写的实在是太好了 ）
++ [基于传统算法的视觉识别](https://openatomworkshop.csdn.net/6645b6b1b12a9d168eb6de37.html?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7Ebaidujs_utm_term%7Eactivity-1-123112639-blog-88530186.235%5Ev43%5Epc_blog_bottom_relevance_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7Ebaidujs_utm_term%7Eactivity-1-123112639-blog-88530186.235%5Ev43%5Epc_blog_bottom_relevance_base1&utm_relevant_index=2)（ 磕头磕头 ）
++ [北洋机甲自瞄框架](https://github.com/HHgzs/TJURM-2024)
++ [北洋机甲视觉算法库](https://github.com/HHgzs/OpenRM-2024)（ 感谢北洋机甲开源的原生 C++ 自瞄算法框架 ）
 ### 导航
 To be continued ...
 
