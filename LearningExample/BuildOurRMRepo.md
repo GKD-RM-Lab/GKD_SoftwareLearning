@@ -5,7 +5,7 @@ cd ~/GKD_WorkSpace
 ```
 接着，你可以使用ssh来clone我们的仓库到本地
 ```
-git clone git@github.com:zzLinus/NeoRMControl_OneForALL.git
+git clone git@github.com:GKD-RM-Lab/GKD_Control.git
 ```
 进入本地代码仓库
 ```
