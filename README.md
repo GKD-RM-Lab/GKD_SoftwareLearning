@@ -35,7 +35,7 @@ mkdir ~/GKD_WorkSpace
 ## 控制组
 对于控制组而言，最重要的就是如何控制电机。首先控制一个电机所需要的前置知识为以下几部分
 + 首先我们的主控与电机之间的通信使用的是 [can 通信](./LearningExample/CanTutorial.md)
-+ 理解机器人各部分之间的 [通信、走线拓扑](./LearningExample/CircuitTopology.md)
++ 理解机器人各部分之间的 [走线拓扑](./LearningExample/CircuitTopology.md)
 + 我们控制电机的主要控制算法为 [PID](./LearningExample/PIDTutorial.md)
 
 ## 算法组
