@@ -42,18 +42,18 @@ mkdir ~/GKD_WorkSpace
 可以根据你的兴趣进行选择学习导航或自瞄
 ### 自瞄
 由于队伍内算法组起步较晚，无法在本赛季快速开发出一套视觉算法库，故选择使用北洋机甲开源的视觉算法框架，但还需要进行移植，以下是一些我们认为非常有用的资料
-+ [了解CV和RoboMaster视觉组](https://github.com/NeoZng/vision_tutorial/blob/main/了解CV和RoboMaster视觉组.md)（ 给跃鹿算法组各位大佬磕头了，写的实在是太好了 ）
++ [了解 CV 和 RoboMaster 视觉组](https://github.com/NeoZng/vision_tutorial/blob/main/了解CV和RoboMaster视觉组.md)（ 给跃鹿算法组各位大佬磕头了，写的实在是太好了 ）
 + [基于传统算法的视觉识别](https://openatomworkshop.csdn.net/6645b6b1b12a9d168eb6de37.html?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7Ebaidujs_utm_term%7Eactivity-1-123112639-blog-88530186.235%5Ev43%5Epc_blog_bottom_relevance_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7Ebaidujs_utm_term%7Eactivity-1-123112639-blog-88530186.235%5Ev43%5Epc_blog_bottom_relevance_base1&utm_relevant_index=2)（ 磕头磕头 ）
 + [北洋机甲自瞄框架](https://github.com/HHgzs/TJURM-2024)
 + [北洋机甲视觉算法库](https://github.com/HHgzs/OpenRM-2024)（ 感谢北洋机甲开源的原生 C++ 自瞄算法框架 ）
 ### 导航
 大部分代码都是缝合网上的，主要用到了以下一些
 + [全局点云扫描](https://github.com/hku-mars/FAST_LIO)
-+ [mid360雷达sdk](https://github.com/Livox-SDK/Livox-SDK2)
-+ [点云匹配 PCL库](https://github.com/PointCloudLibrary/pcl)
++ [mid360 雷达 sdk](https://github.com/Livox-SDK/Livox-SDK2)
++ [点云匹配 PCL 库](https://github.com/PointCloudLibrary/pcl)
 + [使用并发加速点云匹配的库](https://github.com/koide3/ndt_omp)
-+ [C++矩阵库 用于计算变换矩阵](https://github.com/PX4/eigen)
-+ [图像库 用于将三维点云处理成栅格图](https://github.com/opencv/opencv)
++ [C++ 用于计算变换矩阵的矩阵库](https://github.com/PX4/eigen)
++ [用于将三维点云处理成栅格图的图像库](https://github.com/opencv/opencv)
 + [A* 用于平面图路径规划](https://cn.bing.com/search?q=A*)
   + [A* 进阶](https://zhuanlan.zhihu.com/p/362099202)
 + [路径平滑算法](https://zhuanlan.zhihu.com/p/364421182)
