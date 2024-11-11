@@ -47,7 +47,7 @@ mkdir ~/GKD_WorkSpace
 + [北洋机甲自瞄框架](https://github.com/HHgzs/TJURM-2024)
 + [北洋机甲视觉算法库](https://github.com/HHgzs/OpenRM-2024)（ 感谢北洋机甲开源的原生 C++ 自瞄算法框架 ）
 ### 导航
-大部分代码都是缝合网上的，主要用到了以下一些
+导航部分没有参照其他学校使用 ROS，主要用到了以下一些库进行移植
 + [全局点云扫描](https://github.com/hku-mars/FAST_LIO)
 + [mid360 雷达 sdk](https://github.com/Livox-SDK/Livox-SDK2)
 + [点云匹配 PCL 库](https://github.com/PointCloudLibrary/pcl)
