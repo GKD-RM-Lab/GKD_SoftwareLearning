@@ -47,7 +47,17 @@ mkdir ~/GKD_WorkSpace
 + [北洋机甲自瞄框架](https://github.com/HHgzs/TJURM-2024)
 + [北洋机甲视觉算法库](https://github.com/HHgzs/OpenRM-2024)（ 感谢北洋机甲开源的原生 C++ 自瞄算法框架 ）
 ### 导航
-To be continued ...
+大部分代码都是缝合网上的，主要用到了以下一些
++ [全局点云扫描](https://github.com/hku-mars/FAST_LIO)
++ [mid360雷达sdk](https://github.com/Livox-SDK/Livox-SDK2)
++ [点云匹配 PCL库](https://github.com/PointCloudLibrary/pcl)
++ [使用并发加速点云匹配的库](https://github.com/koide3/ndt_omp)
++ [C++矩阵库 用于计算变换矩阵](https://github.com/PX4/eigen)
++ [图像库 用于将三维点云处理成栅格图](https://github.com/opencv/opencv)
++ [A* 用于平面图路径规划](https://cn.bing.com/search?q=A*)
+  + [A* 进阶](https://zhuanlan.zhihu.com/p/362099202)
++ [路径平滑算法](https://zhuanlan.zhihu.com/p/364421182)
+  + [目前采用的平滑算法](https://www.researchgate.net/publication/269785358_A_Collision-Free_G_Continuous_Path-Smoothing_Algorithm_Using_Quadratic_Polynomial_Interpolation)
 
 ## 这些任务我都做完了
 如果这些任务你们都做完了，那么恭喜你已经具有了在 GKD 进行工作的能力（ 恭喜成为了一名人类，毕竟人与动物的最大差别就是会使用工具，当然 just joking ） 欢迎你们这时候来和我们线下聊一聊，并向我们展示你的工作（ 主要关于你这段时间所进行的学习 ）
