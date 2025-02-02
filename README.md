@@ -37,6 +37,8 @@ mkdir ~/GKD_WorkSpace
 + 首先我们的主控与电机之间的通信使用的是 [can 通信](./LearningExample/CanTutorial.md)
 + 理解机器人各部分之间的 [走线拓扑](./LearningExample/CircuitTopology.md)
 + 我们控制电机的主要控制算法为 [PID](./LearningExample/PIDTutorial.md)
+### 电机的控制
+我们的 [电机驱动依赖库](https://github.com/GKD-RM-Lab/ControlLib) 应是各位在学习如何驱动电机上的第一手资料，里面会详细给大家介绍如何使用我们的库来驱动电机 ( 现在的 [电控仓库](https://github.com/GKD-RM-Lab/GKD_Control) 还没有跟上更新 )
 
 ## 算法组
 为了熟悉我们机器人的构造，请算法组的同学也先学习一下控制组中的 [走线拓扑](./LearningExample/CircuitTopology.md)，然后可以根据你的兴趣进行选择学习导航或自瞄
@@ -45,7 +47,7 @@ mkdir ~/GKD_WorkSpace
 + [了解 CV 和 RoboMaster 视觉组](https://github.com/NeoZng/vision_tutorial/blob/main/了解CV和RoboMaster视觉组.md)（ 给跃鹿算法组各位大佬磕头了，写的实在是太好了 ）
 + [基于传统算法的视觉识别](https://openatomworkshop.csdn.net/6645b6b1b12a9d168eb6de37.html?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7Ebaidujs_utm_term%7Eactivity-1-123112639-blog-88530186.235%5Ev43%5Epc_blog_bottom_relevance_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7Ebaidujs_utm_term%7Eactivity-1-123112639-blog-88530186.235%5Ev43%5Epc_blog_bottom_relevance_base1&utm_relevant_index=2)（ 磕头磕头 ）
 + [北洋机甲自瞄框架](https://github.com/HHgzs/TJURM-2024)
-+ [北洋机甲视觉算法库](https://github.com/HHgzs/OpenRM-2024)（ 感谢北洋机甲开源的原生 C++ 自瞄算法框架 ）
++ [北洋机甲视觉算法库](https://github.com/HHgzs/OpenRM-2024)（ 感谢北洋机甲开源的原生 c++ 自瞄算法框架 ）
 ### 导航
 导航部分没有参照其他学校使用 ROS，主要用到了以下一些库进行移植
 + [全局点云扫描](https://github.com/hku-mars/FAST_LIO)
@@ -59,8 +61,15 @@ mkdir ~/GKD_WorkSpace
 + [路径平滑算法](https://zhuanlan.zhihu.com/p/364421182)
   + [目前采用的平滑算法](https://www.researchgate.net/publication/269785358_A_Collision-Free_G_Continuous_Path-Smoothing_Algorithm_Using_Quadratic_Polynomial_Interpolation)
 
+## 我要成为 c++ 高手
+**我要成为像 JTY, MBH, XC 一样的 c++ 高手! ! !**
+
+![我要成为 c++ 高手](./Images/c++master.jpg)
+
+我们会在这个 [代码训练仓库](https://github.com/GKD-RM-Lab/rmNewBee) 持续发布一些简单的代码练习，这些代码练习将尽量与后续控制或视觉组的工作有关
+
 ## 这些任务我都做完了
-如果这些任务你们都做完了，那么恭喜你已经具有了在 GKD 进行工作的能力（ 恭喜成为了一名人类，毕竟人与动物的最大差别就是会使用工具，当然 just joking ） 欢迎你们这时候来和我们线下聊一聊，并向我们展示你的工作（ 主要关于你这段时间所进行的学习 ）
+如果这些任务你们都做完了，那么恭喜你已经具有了在 GKD 进行工作的能力，欢迎你们这时候来和我们线下聊一聊，并向我们展示你的工作（ 主要关于你这段时间所进行的学习 ）
 
 ## 前面的任务太简单了
 如果你的基础很强大，那么你可以选择跳过前面的所有学习路径。直接完成我们的 [考核题目](./NeoRMControl_OneForALL-newbee)。当你通过考核后，将正式加入GKD大家庭中

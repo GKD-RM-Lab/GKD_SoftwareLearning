@@ -11,7 +11,9 @@ sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install -y can-utils net-tools
 ```
 将两个 usb2can 如图连接起来，并同时和自己的电脑连接，即可进行回环测试
+
 ![usb2can](../Images/usb2canloop.jpg)
+
 查看是否检测到 can 设备（ 在列表中看到带有 can 名称的设备说明你的电脑正常识别了 can 设备 ）
 ```
 ifconfig -a
@@ -38,4 +40,3 @@ can0 200 [8] 5A 5A 5A 5A 5A 5A 5A 5A
 
 ## 如何使用 linux / can.h 进行 can 的收发
 
-驱动一个电机，我们首先需要查看这个电机的用户说明手册，我们这里以驱动一个 6020 为例
