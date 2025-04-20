@@ -28,9 +28,12 @@ mkdir ~/GKD_WorkSpace
 + [编译我们的代码](./LearningExample/BuildOurRMRepo.md)
 
 ## 学习c/c++
-+ 有不错的编程基础，你可以直接学习 c++
-+ 如果你刚开始接触编程可以先学 c 语言（ ***但请注意，请不要按照学校的教学进度进行学习，否则你将无法快速融入GKD！*** ）
+![我要成为 c++ 高手](./Images/c++master.jpg)
+
++ 建议学习 c++ ( 尤其是有 c 语言基础的同学 )
 + 实在不知道看哪一个 c++ 教程，我们（ 其实只有zzm ）向你推荐 [这个教程](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)（ b 站上搜索 cherno c++ 有带中文字幕的教程 ）
++ 我们会在这个 [代码训练仓库](https://github.com/GKD-RM-Lab/rmNewBee) 持续发布一些简单的代码练习，这些代码练习将尽量与后续控制或视觉组的工作有关
++ 同时我们的视频教程已经发布在了 b站: [西南大学 GKD 机器人队](https://space.bilibili.com/316407854?spm_id_from=333.337.0.0)
 
 ## 控制组
 对于控制组而言，最重要的就是如何控制电机。首先控制一个电机所需要的前置知识为以下几部分
@@ -38,7 +41,7 @@ mkdir ~/GKD_WorkSpace
 + 理解机器人各部分之间的 [走线拓扑](./LearningExample/CircuitTopology.md)
 + 我们控制电机的主要控制算法为 [PID](./LearningExample/PIDTutorial.md)
 ### 电机的控制
-我们的 [电机驱动依赖库](https://github.com/GKD-RM-Lab/ControlLib) 应是各位在学习如何驱动电机上的第一手资料，里面会详细给大家介绍如何使用我们的库来驱动电机 ( 现在的 [电控仓库](https://github.com/GKD-RM-Lab/GKD_Control) 还没有跟上更新 )
+我们的 [电机驱动依赖库](https://github.com/GKD-RM-Lab/ControlLib) 应是各位在学习如何驱动电机上的第一手资料，里面会详细给大家介绍如何使用我们的库来驱动电机 ( 现在的 [电控仓库](https://github.com/GKD-RM-Lab/GKD_Control) 也已经进行了更新, 可以直接学习! )
 
 ## 算法组
 为了熟悉我们机器人的构造，请算法组的同学也先学习一下控制组中的 [走线拓扑](./LearningExample/CircuitTopology.md)，然后可以根据你的兴趣进行选择学习导航或自瞄
@@ -72,4 +75,4 @@ mkdir ~/GKD_WorkSpace
 如果这些任务你们都做完了，那么恭喜你已经具有了在 GKD 进行工作的能力，欢迎你们这时候来和我们线下聊一聊，并向我们展示你的工作（ 主要关于你这段时间所进行的学习 ）
 
 ## 前面的任务太简单了
-如果你的基础很强大，那么你可以选择跳过前面的所有学习路径。直接完成我们的 [考核题目](./NeoRMControl_OneForALL-newbee)。当你通过考核后，将正式加入GKD大家庭中
+如果你的基础很强大，那么你可以选择跳过前面的所有学习路径。直接完成我们的 [考核题目](./NeoRMControl_OneForALL-newbee)。当你通过考核后，将正式加入 GKD 大家庭中
