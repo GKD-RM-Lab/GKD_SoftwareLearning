@@ -48,8 +48,7 @@ mkdir ~/GKD_WorkSpace
 
 ### 自瞄
 感谢北洋机甲提供的自瞄方案 ( 磕头了! ), 我们的自瞄仅在北洋机甲提供的方案上做了适配
-+ [自瞄框架](https://github.com/GKD-RM-Lab/TJURM-2024-gkd)
-+ [自瞄算法库](https://github.com/GKD-RM-Lab/OpenRM2024-gkd)
++ [我们的自瞄算法库](https://github.com/GKD-RM-Lab/GKD_Vision)
 
 如果你想先进行学习再看代码, 以下是一些我们认为非常有用的资料
 
