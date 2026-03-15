@@ -35,7 +35,7 @@ mkdir ~/GKD_WorkSpace
 + 我们会在这个 [代码训练仓库](https://github.com/GKD-RM-Lab/rmNewBee) 持续发布一些简单的代码练习，这些代码练习将尽量与后续控制或视觉组的工作有关
 + 同时我们的视频教程已经发布在了 b站: [西南大学 GKD 机器人队](https://space.bilibili.com/316407854?spm_id_from=333.337.0.0)
 
-## 控制组
+## 电控组
 对于控制组而言，最重要的就是如何控制电机。首先控制一个电机所需要的前置知识为以下几部分
 + 首先我们的主控与电机之间的通信使用的是 [can 通信](./LearningExample/CanTutorial.md)
 + 理解机器人各部分之间的 [走线拓扑](./LearningExample/CircuitTopology.md)
@@ -47,8 +47,7 @@ mkdir ~/GKD_WorkSpace
 为了熟悉我们机器人的构造，请算法组的同学也先学习一下控制组中的 [走线拓扑](./LearningExample/CircuitTopology.md)，然后可以根据你的兴趣进行选择学习导航或自瞄
 
 ### 自瞄
-感谢北洋机甲提供的自瞄方案 ( 磕头了! ), 我们的自瞄仅在北洋机甲提供的方案上做了适配
-+ [我们的自瞄算法库](https://github.com/GKD-RM-Lab/GKD_Vision)
++ [我们的自瞄算法库](https://github.com/GKD-RM-Lab/gkd_vision_26.git)
 
 如果你想先进行学习再看代码, 以下是一些我们认为非常有用的资料
 
